@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0 auto;
+  font-family: var(--font-inter);
+  color: var(--color-text-light-main);
+  background: linear-gradient(to bottom,
+      var(--color-dark-1),
+      var(--color-dark-2),
+      var(--color-dark-3));
+  background-attachment: fixed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent-gold);
+  outline-offset: 2px;
+}
+
+.base__container {
+  padding: 0 50px;
+  max-width: 1820px;
+}
+
+
+.section-gap{
+  margin-top: 300px;
+}
+
+.styled-btn {
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-text-light-main);
+    font-family: var(--font-jost);
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+
+.styled-btn::before {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: var(--color-text-light-main);
+    display: block;
+}
+
+@media screen and (max-width: 1920px) {
+  .base__container {
+    min-width: 100%;
+  }
+}

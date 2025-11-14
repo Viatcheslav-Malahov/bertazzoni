@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bertazzoni</title>
+
+    <!-- Fonts (замени на локальные @font-face при необходимости) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Jost:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Токены и базовые -->
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="base__container">
+        <header class="hdr">
+            <nav class="hdr__nav" aria-label="Главное меню">
+                <ul class="hdr__nav__ul">
+                    <li>
+                        <a class="hdr__link" href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a class="hdr__link" href="#">Серии</a>
+                    </li>
+                    <li>
+                        <a class="hdr__link" href="#">Партнёрам</a>
+                    </li>
+                    <li>
+                        <a class="hdr__link" href="#">О компании</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="hdr__logo" href="/" aria-label="Bertazzoni">
+                <!-- замените путь на свой SVG -->
+                <img src="assets/icons/bertazzoni logo 1.svg" alt="Bertazzoni" width="180" height="43">
+            </a>
+
+            <div class="hdr__actions">
+                <a class="hdr__ghost" href="#">Обратная связь</a>
+                <a class="hdr__ghost" href="tel:+74991198200">+7 499 119 82 00</a>
+                <div class="hdr__icons" aria-label="Быстрые действия">
+                    <button class="hdr__icons__i" aria-label="Поиск">
+                        <img src="assets/icons/search.svg" alt="Bertazzoni" width="180" height="43">
+                    </button>
+                    <button class="hdr__icons__i" aria-label="Сравнение">
+                        <img src="assets/icons/shopping-bag.svg" alt="Bertazzoni" width="180" height="43">
+                    </button>
+                    <button class="hdr__icons__i" aria-label="Избранное">
+                        <img src="assets/icons/wishlist-star.svg" alt="Bertazzoni" width="180" height="43">
+                    </button>
+                    <button class="hdr__icons__i" aria-label="Профиль">
+                        <img src="assets/icons/driver-man 1.svg" alt="Bertazzoni" width="180" height="43">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="mainKitchen">
+                <h3 class="mainKitchen__h3">Эксклюзивный дистрибьютор</h3>
+                <h1 class="mainKitchen__h1">
+                    Настоящая Италия <br>
+                    на вашей кухне
+                </h1>
+            </section>
+            <h3 class="separate__h3">Семейные ценности. Кулинарные традиции. Инженерное искусство.</h3>
+            <section class="technique section-gap">
+                <h2 class="technique__h2">Техника Bertazzoni</h2>
+                <div class="technique__grid1">
+                    <div>
+                        <img src="./assets/img/technique__grid1_1.png" alt="Варочные панели">
+                        <p class="technique__grid1_p">Варочные панели</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/technique__grid1_2.png" alt="Духовые шкафы">
+                        <p class="technique__grid1_p">Варочные панели</p>
+                    </div>
+                    <div class="technique__grid1_div3">
+                        <img class="technique__grid1_img3" src="./assets/img/technique__grid1_1.png"
+                            alt="Варочные центры">
+                        <p class="technique__grid1_p">Варочные центры</p>
+                    </div>
+                </div>
+                <div class="technique__grid2">
+                    <div>
+                        <img src="./assets/img/technique__grid2_1.png" alt="Посудомоечные машины">
+                        <p class="technique__grid2_p">Посудомоечные машины</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/technique__grid2_2.png" alt="Вытяжки">
+                        <p class="technique__grid2_p">Вытяжки</p>
+                    </div>
+                    <div class="technique__grid1_div3">
+                        <img class="technique__grid2_img3" src="./assets/img/technique__grid2_3.png" alt="Холодильники">
+                        <p class="technique__grid2_p">Холодильники</p>
+                    </div>
+                </div>
+            </section>
+            <section class="series section-gap">
+                <div class="series__div">
+                    <img src="./assets/img/series_img_1.png" alt="">
+                    <p class="series__div_p series__div_p1">Серии</p>
+                    <p class="series__div_p series__div_p2">01/04</p>
+                </div>
+                <div class="series__div series__div2">
+                    <img class="series__div2_img" src="./assets/img/series_img_2.png" alt="">
+                    <img class="series__div2_img" src="./assets/img/series_img_3.png" alt="">
+                    <p class="series__div2_p">Professional</p>
+                </div>
+            </section>
+            <section class="goodsCards section-gap">
+                <h2 class="goodsCards__h2">Новинки техники Bertazzoni</h2>
+                <div class="goodsCards__container">
+                    <div class="goodsCards__card">
+                        <div class="goodsCards__card-imgbox">
+                            <img class="goodsCards__card-img" src="./assets/img/goodsCards/1.png" alt="">
+                        </div>
+                        <p class="goodsCards__card-name">Встраиваемый холодильник BERTAZZONI, 60 см</p>
+                        <p class="goodsCards__card-price">300 000 ₽</p>
+                    </div>
+                    <div class="goodsCards__card">
+                        <div class="goodsCards__card-imgbox">
+                            <img class="goodsCards__card-img" src="./assets/img/goodsCards/1.png" alt="">
+                        </div>
+                        <p class="goodsCards__card-name">Встраиваемый холодильник BERTAZZONI, 60 см</p>
+                        <p class="goodsCards__card-price">300 000 ₽</p>
+                    </div>
+                    <div class="goodsCards__card">
+                        <div class="goodsCards__card-imgbox">
+                            <img class="goodsCards__card-img" src="./assets/img/goodsCards/1.png" alt="">
+                        </div>
+                        <p class="goodsCards__card-name">Встраиваемый холодильник BERTAZZONI, 60 см</p>
+                        <p class="goodsCards__card-price">300 000 ₽</p>
+                    </div>
+                    <div class="goodsCards__card">
+                        <div class="goodsCards__card-imgbox">
+                            <img class="goodsCards__card-img" src="./assets/img/goodsCards/1.png" alt="">
+                        </div>
+                        <p class="goodsCards__card-name">Встраиваемый холодильник BERTAZZONI, 60 см</p>
+                        <p class="goodsCards__card-price">300 000 ₽</p>
+                    </div>
+                    <div class="goodsCards__card goodsCards__card-big">
+                        <div class="goodsCards__card-imgbox">
+                            <img class="goodsCards__card-img" src="./assets/img/goodsCards/2.png" alt="">
+                        </div>
+                        <p class="goodsCards__card-name">Встраиваемый холодильник BERTAZZONI, 60 см</p>
+                        <p class="goodsCards__card-price">300 000 ₽</p>
+                    </div>
+                    <div class="goodsCards__card goodsCards__card-big">
+                        <div class="goodsCards__card-imgbox">
+                            <img class="goodsCards__card-img" src="./assets/img/goodsCards/3.png" alt="">
+                        </div>
+                        <p class="goodsCards__card-name">Встраиваемый холодильник BERTAZZONI, 60 см</p>
+                        <p class="goodsCards__card-price">300 000 ₽</p>
+                    </div>
+                </div>
+            </section>
+            <section class="history section-gap">
+                <div class="history__map">
+                    <img class="history__map-img" src="./assets/img/history__map.png" alt="Italy map">
+                    <button class="history__city history__city-milano" data-title="Milano">i</button>
+                    <button class="history__city history__city-bologna" data-title="Bologna">i</button>
+                    <button class="history__city history__city-firenze" data-title="Firenze">i</button>
+                    <button class="history__city history__city-venezia" data-title="Venezia">i</button>
+                    <button class="history__city history__city-roma" data-title="Roma">i</button>
+                </div>
+            </section>
+            <section class="technology section-gap ">
+                <div class="technology__container">
+                    <div class="technology__container-left">
+                        <div class="technology__container-header">
+                            <h2 class="technology__h2">Технологии Bertazzoni</h2>
+                            <p class="technology__container-header-count">01/05</p>
+                        </div>
+                        <h4>Индукционный нагрев: <br>быстро и чисто</h4>
+                        <p class="technology__container-header-text">
+                            Быстрая, эффективная и очень безопасная индукционная варочная панель Bertazzoni
+                            предлагает универсальный и простой способ приготовления. Поверхности из черного
+                            закаленного стекла удобны в управлении и очистке, они сочетаются практически с любым
+                            стилем кухни, привнося элегантный
+                            и изысканный вид.
+                        </p>
+                        <a class="technology__container-btn styled-btn" href="#">ЧИТАТЬ</a>
+                    </div>
+                    <div class="technology__container-right">
+                        <img src="/assets/img/technology/1.png" alt="кастрюля">
+                    </div>
+                </div>
+            </section>
+            <section class="designers section-gap">
+                <div class="designers__content">
+                    <h2 class="designers__content-h2">Сотрудничество
+                        с дизайнерами
+                        и архитекторами
+                    </h2>
+                    <div>
+                        <a class="designers__content-btn styled-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
+                        <p class="designers__content-p">
+                            На базе многолетних традиций
+                            и высокоточной инженерии в производстве бытовых приборов, Bertazzoni предлагает полный
+                            спектр
+                            изделий для комплексного решения на вашей кухне
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="photoSlider">
+
+            </section>
+        </main>
+        <footer>
+            <div>
+                <img src="" alt="logo">
+                <form action="">
+                    <input type="email" name="" id="">
+                    <input type="checkbox" name="" id="">
+                </form>
+            </div>
+            <div></div>
+        </footer>
+    </div>
+</body>
+
+</html>

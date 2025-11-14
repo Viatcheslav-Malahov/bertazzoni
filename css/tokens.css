@@ -1,0 +1,80 @@
+:root {
+  /* --------------------
+     Цвета бренда
+  -------------------- */
+  --color-accent-gold: #C9A063;   /* основной золотой */
+  --color-accent-gold-light: #EAD8C2;
+  --color-accent-red: #E6522E;
+
+  /* Темный градиент (фон) */
+  --color-dark-1: #121212;
+  --color-dark-2: #181818;
+  --color-dark-3: #272727;
+  --color-dark-4: #323232;
+  --color-dark-5: #3D3D3D;
+
+  /* Светлый текст */
+  --color-text-light-title: #F9F7E7;  /* заголовки */
+  --color-text-light-main: #FEFEFE;
+  --color-text-light-muted: #B0B3BD;
+
+  /* --------------------
+     Типографика
+     Jost + Inter
+  -------------------- */
+  --font-jost: "Jost", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Заголовки desktop */
+  --fs-h1-desktop: 52px;
+  --fs-h1-max: 64px; /* upper clamp */
+  
+  --fs-h2-desktop: 48px;
+  --fs-h2-max: 52px;
+
+  --fs-h3-desktop: 32px;
+  --fs-h3-max: 36px;
+
+  /* Заголовки mobile */
+  --fs-h1-mobile: 36px;
+  --fs-h1-mobile-max: 44px;
+
+  --fs-h2-mobile: 28px;
+  --fs-h2-mobile-max: 32px;
+
+  --fs-h3-mobile: 20px;
+  --fs-h3-mobile-max: 24px;
+
+  /* Подзаголовок */
+  --fs-sub-desktop: 20px;
+  --fs-sub-max: 24px;
+  --fs-sub-mobile: 14px;
+  --fs-sub-mobile-max: 16px;
+
+  /* Кнопки / меню */
+  --fs-btn: 16px;
+  --fs-menu: 14px;
+
+  /* Основной текст */
+  --fs-body: 18px;
+
+  /* Letter-spacing */
+  --ls-h1: -0.5px;
+  --ls-h2: -0.2px;
+
+  /* --------------------
+     Отступы / радиусы
+  -------------------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 14px;
+}

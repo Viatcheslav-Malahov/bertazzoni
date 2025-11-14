@@ -1,0 +1,29 @@
+.hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  z-index: 2;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.hdr__actions {
+  display: flex;
+  gap: 65px;
+}
+
+.hdr__nav__ul {
+  display: flex;
+  gap: 40px;
+}
+
+.hdr__icons {
+ display: flex;
+ gap: 25px;
+}
+.hdr__icons__i >img {
+  height: 24px;
+  width: 24px; 
+}
+
