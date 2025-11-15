@@ -164,6 +164,46 @@ goodsCards__card {
     color: var(--color-accent-gold);
 }
 
+.history {
+    position: relative;
+}
+
+.history__text {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 26%;
+    background-color: var(--color-dark-5);
+    padding: 70px 50px;
+    height: 90%;
+    color: var(--color-text-light-main);
+}
+
+.history__text-h3 {
+    font-family: var(--font-jost);
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+.history__text-h4 {
+    font-family: var(--font-jost);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--color-text-light-muted-alt);
+}
+
+.history__text-p {
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+}
+
 .history__map {
     position: relative;
     max-width: 100%;
@@ -335,6 +375,90 @@ goodsCards__card {
     margin-top: 55px;
 }
 
+/* --- EMAIL INPUT --- */
+
+.footer__input-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    /* можно менять */
+    border-bottom: 1px solid #aaa;
+    padding: 8px 0;
+}
+
+.footer__input-wrap input {
+    width: 100%;
+    padding-right: 24px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.footer__input-wrap input::placeholder {
+    color: #ccc;
+}
+
+.footer__input-wrap .plus {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    line-height: 1;
+    color: #ccc;
+}
+
+
+.footer__input-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.footer__checkbox-wrap {
+    margin-top: 15px;
+}
+
+.footer__checkbox-wrap input {
+    display: none;
+}
+
+.footer__checkmark {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    display: block;
+    position: relative;
+}
+
+.footer__checkmark-wrap input:checked+.footer__checkmark::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    width: 8px;
+    height: 14px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+.footer__checkbox-wrap .text {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.footer__checkbox-label {
+    display: flex;
+    gap: 14px;
+}
+
 .footer__right {
     color: var(--color-text-light-muted-alt);
     font-size: 12px;
@@ -346,7 +470,7 @@ goodsCards__card {
     gap: 100px;
 }
 
-.footer__socials-ul{
+.footer__socials-ul {
     display: flex;
     gap: 25px;
     margin-top: 30px;

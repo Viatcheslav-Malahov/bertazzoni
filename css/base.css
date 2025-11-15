@@ -59,6 +59,28 @@ h2 {
   font-size: 48px;
 }
 
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font: inherit;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input:target{
+  border: none;
+}
+
 :focus-visible {
   outline: 2px solid var(--color-accent-gold);
   outline-offset: 2px;
