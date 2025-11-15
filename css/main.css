@@ -310,9 +310,44 @@ goodsCards__card {
     margin-bottom: 40px;
 }
 
-.designers__content-p{
+.designers__content-p {
     font-size: 16px;
     line-height: 125%;
     font-weight: 500;
 }
 
+.photoSlider {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 0 -50px;
+    margin-top: 300px;
+}
+
+.footer {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__form {
+    margin-top: 55px;
+}
+
+.footer__right {
+    color: var(--color-text-light-muted-alt);
+    font-size: 12px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 125%;
+    display: flex;
+    gap: 100px;
+}
+
+.footer__socials-ul{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
